@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/catalog")
 public class MovieCatalogResource {
 	
-	@GetMapping(path = "{userId}")
+	@GetMapping(path = "/{userId}")
 	public List<CatalogItem> getCatalog(@PathVariable("userId") String userId) {
 		return Collections.singletonList(
 				new CatalogItem("Transformers", "Test", 4)

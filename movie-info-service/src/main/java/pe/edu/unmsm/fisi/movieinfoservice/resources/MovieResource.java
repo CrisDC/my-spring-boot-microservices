@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 import pe.edu.unmsm.fisi.movieinfoservice.models.Movie;
 
 @RestController
-@RequestMapping("/movies")
+@RequestMapping("/movie")
 public class MovieResource {
 	
-	@GetMapping(path = "/{movieId}}")
+	@GetMapping(path = "/{movieId}")
 	public Movie getMovieInfo(@PathVariable("movieId") String movieId) {
 		return new Movie(movieId, "Test name");
 	}
