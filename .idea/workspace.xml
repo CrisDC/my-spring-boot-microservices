@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c200f50-2233-407a-a7b7-7a030dedd14d" name="Default Changelist" comment="">
+    <list default="true" id="1c200f50-2233-407a-a7b7-7a030dedd14d" name="Default Changelist" comment="05. changed ports number for modules">
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/models/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/models/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/models/UserRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/pe/edu/unmsm/fisi/ratingsdataservice/models/Rating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/pe/edu/unmsm/fisi/ratingsdataservice/models/UserRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ratings-data-service/src/main/java/pe/edu/unmsm/fisi/ratingsdataservice/resources/RatingsResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/MovieCatalogServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/MovieCatalogServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/resources/MovieCatalogResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-catalog-service/src/main/java/pe/edu/unmsm/fisi/moviecatalogservice/resources/MovieCatalogResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-info-service/src/main/java/pe/edu/unmsm/fisi/movieinfoservice/resources/MovieResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-info-service/src/main/java/pe/edu/unmsm/fisi/movieinfoservice/resources/MovieResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-info-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567027446958</updated>
-      <workItem from="1567027448486" duration="2225000" />
+      <workItem from="1567027448486" duration="4058000" />
+      <workItem from="1567098099255" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="04. added movie info api">
       <created>1567030259279</created>
@@ -70,7 +77,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
